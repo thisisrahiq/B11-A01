@@ -188,6 +188,31 @@ nav {
   text-decoration: none;
   border: none;
 }
+/* quote  styles  */
+
+.quote-container {
+  background-color: #cdcbcb1f;
+  margin: 50px 200px;
+}
+
+.quote-content {
+  padding: 20px 20px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+}
+.quote-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.quote-bottom-content {
+  padding: 10px 10px;
+}
 
 /* recent news styles */
 
