@@ -252,6 +252,22 @@ nav {
 .news-img-1-1 {
   border-radius: 10px;
 }
+.news-img-2 {
+  padding: 48px;
+}
+.news-img-2-2 {
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+}
+.news-img-3 {
+  padding: 48px;
+}
+.news-img-3-3 {
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+}
 
 .news-card-btn {
   background-color: #006a50;
