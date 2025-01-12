@@ -320,7 +320,47 @@ nav {
   background-color: #c6e4d6;
 }
 
-.donate-input {
+.donate-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  height: 60px;
+  width: 100%;
+}
+
+.donate-box input {
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.donate-now-ctn {
+  color: white;
   border: none;
-  padding: 40px 40px;
+  border-radius: 5px;
+  padding: 10px 40px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+
+.donate-now-btn {
+  background-color: #006a50;
+  padding: 18px 34px;
+  text-decoration: none;
+  border: none;
+  font-weight: 800;
 }
